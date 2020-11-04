@@ -6200,14 +6200,14 @@
 		<paymentOrgIdentificationPAYMENT_CODE>SAMPLETEXTSAMPLETEXTSAMPL</paymentOrgIdentificationPAYMENT_CODE>
 	</payment>
 	<payment>
-        	<orgId>ede5593c-aa93-421c-b05b-dee3261560be</orgId>
-        	<orgName>e-Παράβολο</orgName>
-        	<paymentIdentificationinstrId>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLE</paymentIdentificationinstrId>
-        	<settlementInfomethod>SAMPLETEXT</settlementInfomethod>
-        	<settlementInfoamount>112233445566.00</settlementInfoamount>
-        	<paymentOrgIdentificationDEBTOR_TAX_ID>233445566</paymentOrgIdentificationDEBTOR_TAX_ID>
-        	<paymentOrgIdentificationPAYMENT_CODE>12233445566</paymentOrgIdentificationPAYMENT_CODE>
-        	<paymentOrgIdentificationAUX_PAYMENT_CODE>12233445566</paymentOrgIdentificationAUX_PAYMENT_CODE>
+        <orgId>ede5593c-aa93-421c-b05b-dee3261560be</orgId>
+        <orgName>e-Παράβολο</orgName>
+        <paymentIdentificationinstrId>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLE</paymentIdentificationinstrId>
+        <settlementInfomethod>SAMPLETEXT</settlementInfomethod>
+        <settlementInfoamount>112233445566.00</settlementInfoamount>
+        <paymentOrgIdentificationDEBTOR_TAX_ID>233445566</paymentOrgIdentificationDEBTOR_TAX_ID>
+        <paymentOrgIdentificationPAYMENT_CODE>12233445566</paymentOrgIdentificationPAYMENT_CODE>
+        <paymentOrgIdentificationAUX_PAYMENT_CODE>12233445566</paymentOrgIdentificationAUX_PAYMENT_CODE>
     </payment>
 	<payment>
 		<orgId>376b9e0a-e767-45e0-963c-7501864bf8aa</orgId>
@@ -6215,11 +6215,7 @@
 		<paymentIdentificationinstrId>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLE</paymentIdentificationinstrId>
 		<settlementInfomethod>SAMPLETEXT</settlementInfomethod>
 		<settlementInfoamount>112233445566.00</settlementInfoamount>
-		<paymentOrgIdentificationDEBTOR_TAX_ID>233445566</paymentOrgIdentificationDEBTOR_TAX_ID>
-		<paymentOrgIdentificationPAYMENT_CODE>12233445566</paymentOrgIdentificationPAYMENT_CODE>
-		<paymentOrgIdentificationAUX_PAYMENT_CODE>12233445566</paymentOrgIdentificationAUX_PAYMENT_CODE>
-		<paymentOrgIdentificationAUX2_PAYMENT_CODE>233445566</paymentOrgIdentificationAUX2_PAYMENT_CODE>
-		<paymentOrgIdentificationAR_ENTYPOY>SAMPLET</paymentOrgIdentificationAR_ENTYPOY>
+		<paymentOrgIdentificationPAYMENT_CODE>SAMPLETEXTSAMPLETEXTSAMPL</paymentOrgIdentificationPAYMENT_CODE>
 	</payment>
 	<payment>
 		<orgId>111ed590-41eb-42a1-bfe8-b1c42b1cb087</orgId>
