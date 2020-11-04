@@ -1,6 +1,8 @@
 # FileAPI_Cli
 This is a Net.Core application that can be used to upload files with the File API .
-These files can be used for payments through NBG Third Part Payment Services and through Ethnofiles API
+These files can be used for payments through NBG Third Part Payment Services and through Ethnofiles API.
+
+In the [Documentation](https://github.com/myNBGcode/FileAPI_Cli_V4/tree/master/Documentation) folder, you can find information about the valid format of the files tha can be uploaded for different purposes.
 
 Please read [BasicInstructions](https://github.com/myNBGcode/FileAPI_Cli_v4/blob/master/BasicInstructions.txt) for more info about the configuration and the available commands.
 Specific **examples** of the various functions of File CLI can be found below:
