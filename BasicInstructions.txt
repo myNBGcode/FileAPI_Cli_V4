@@ -472,27 +472,29 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 .\FileapiCli.exe retrievefileincoming -d C:\tmp -i 746
 
 
-4.3 MASS PAYMENT EXAMPLES
+4.3 MASS BILL PAYMENT EXAMPLES
 -------------------------
 
-:: Sample Mass Payment
+:: Sample Bill Mass Payment
 .\FileapiCli.exe samplemasspayment --fileType "json" --downloadfolder C:\tmp\ 
 .\FileapiCli.exe samplemasspayment --fileType "csv" --downloadfolder C:\tmp\
 .\FileapiCli.exe samplemasspayment --fileType "xml" --downloadfolder C:\tmp\
 
-:: Mass Payment
+:: Mass Bill Payment
 .\FileapiCli.exe masspayment -i "C:\TestFiles\Test_MassPayment_File.json" -d "Test mass payment file from cli" -t "MD5","MassPayment" --downloadfolder C:\tmp
 ::  Mass Payment Special Requirements
 In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney","Ccy": "EUR" must be filled before run
 
-:: Mass Payment Outcome
+:: Mass Bill Payment Outcome
 .\FileapiCli.exe masspaymentoutcome --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc" --downloadfolder C:\tmp\
 
-:: Mass Payment Request Status
+:: Mass Bill Payment Request Status
 .\FileapiCli.exe requeststatus --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc"
 
-:: Mass Payment Retrieve Status
+:: Mass Bill Payment Retrieve Status
 .\FileapiCli.exe retrievestatus --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc" --downloadfolder C:\tmp\
+
+A video, showing a demonstration of the mass bill payment functionalities, is available at the following link: https://www.youtube.com/watch?v=hgpzXijXmXo.
 
 
 4.4 MASS TRANSFERS EXAMPLES
