@@ -494,8 +494,6 @@ In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","D
 :: Mass Bill Payment Retrieve Status
 .\FileapiCli.exe retrievestatus --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc" --downloadfolder C:\tmp\
 
-A video, showing a demonstration of the mass bill payment functionalities, is available at the following link: https://www.youtube.com/watch?v=hgpzXijXmXo.
-
 
 4.4 MASS TRANSFERS EXAMPLES
 -------------------------
