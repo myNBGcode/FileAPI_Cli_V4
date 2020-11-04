@@ -480,7 +480,7 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 .\FileapiCli.exe samplemasspayment --fileType "csv" --downloadfolder C:\tmp\
 .\FileapiCli.exe samplemasspayment --fileType "xml" --downloadfolder C:\tmp\
 
-:: Mass Bill Payment
+:: Mass Bill Payments
 .\FileapiCli.exe masspayment -i "C:\TestFiles\Test_MassPayment_File.json" -d "Test mass payment file from cli" -t "MD5","MassPayment" --downloadfolder C:\tmp
 ::  Mass Payment Special Requirements
 In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney","Ccy": "EUR" must be filled before run
