@@ -5439,25 +5439,22 @@
         "settlementInfoamount": "112233445566.00",
         "paymentOrgIdentificationPAYMENT_CODE": "SAMPLETEXTSAMPLETEXTSAMPL"
     }, {
-	"orgId": "ede5593c-aa93-421c-b05b-dee3261560be",
-	"orgName": "e-Παράβολο",
-	"paymentIdentificationinstrId": "SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLE",
-	"settlementInfomethod": "SAMPLETEXT",
-	"settlementInfoamount": "112233445566.00",
-	"paymentOrgIdentificationDEBTOR_TAX_ID": "233445566",
-	"paymentOrgIdentificationPAYMENT_CODE": "12233445566",
-	"paymentOrgIdentificationAUX_PAYMENT_CODE": "12233445566"
-    }, {
+		"orgId": "ede5593c-aa93-421c-b05b-dee3261560be",
+		"orgName": "e-Παράβολο",
+		"paymentIdentificationinstrId": "SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLE",
+		"settlementInfomethod": "SAMPLETEXT",
+		"settlementInfoamount": "112233445566.00",
+		"paymentOrgIdentificationDEBTOR_TAX_ID": "233445566",
+		"paymentOrgIdentificationPAYMENT_CODE": "12233445566",
+		"paymentOrgIdentificationAUX_PAYMENT_CODE": "12233445566"
+	},
+	{
         "orgId": "376b9e0a-e767-45e0-963c-7501864bf8aa",
         "orgName": "ΤΕΛΗ ΚΥΚΛΟΦΟΡΊΑΣ ΑΥΤΟΚΙΝΉΤΩΝ ΚΑΙ ΜΟΤΟΣΥΚΛΕΤΏΝ",
         "paymentIdentificationinstrId": "SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLE",
         "settlementInfomethod": "SAMPLETEXT",
         "settlementInfoamount": "112233445566.00",
-        "paymentOrgIdentificationDEBTOR_TAX_ID": "233445566",
-        "paymentOrgIdentificationPAYMENT_CODE": "12233445566",
-        "paymentOrgIdentificationAUX_PAYMENT_CODE": "12233445566",
-        "paymentOrgIdentificationAUX2_PAYMENT_CODE": "233445566",
-        "paymentOrgIdentificationAR_ENTYPOY": "SAMPLET"
+        "paymentOrgIdentificationPAYMENT_CODE": "SAMPLETEXTSAMPLETEXTSAMPL",
     }, {
         "orgId": "111ed590-41eb-42a1-bfe8-b1c42b1cb087",
         "orgName": "ΤΕΛΗ ΚΩΠΑΪΔΑΣ-ΠΣΤΕ-Π.Ε.ΒΟΙΩΤΙΑΣ",
