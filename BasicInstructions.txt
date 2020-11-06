@@ -175,7 +175,7 @@ Below are samples of the output for all help options
  .\FileapiCli.exe help sendtoethnofiles
  ---------------------------------------
 
-   --fileid              Required. File Guid from fileAPI.
+   --fileid             Required. File Guid from fileAPI.
 
   --inputfile           Filename with full path. (add this if you want to use the --datafromfilename command)
 
@@ -347,7 +347,7 @@ Below are samples of the output for all help options
   .\FileapiCli.exe help downloadfilesincoming
  ----------------------------------------------
 
-   -f, --datefrom          Required. Starting date (yyyy-mm-dd) of the time period files are retrieved from. Required
+   -f, --datefrom         Required. Starting date (yyyy-mm-dd) of the time period files are retrieved from. Required
 
   -t, --dateto            End date (yyyy-mm-dd) of the time period files are retrieved from. Will fetch up to latest if
                           ommited
@@ -442,7 +442,7 @@ Below are samples of the output for all help options
 
 :: Send To Ethnofiles
 .\FileapiCli.exe sendtoethnofiles --fileid "53b322fc-2940-424f-9dad-59aa3168848c" --idfield 3356 --rowcount 2 --totalsum 0.45 
-::  Mass Payment Special Requirements
+::  Send To Ethnofiles Special Requirements
 In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney" must be filled before run.
 
 :: Process Ethnofiles File
@@ -482,7 +482,7 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 
 :: Mass Bill Payments
 .\FileapiCli.exe masspayment -i "C:\TestFiles\Test_MassPayment_File.json" -d "Test mass payment file from cli" -t "MD5","MassPayment" --downloadfolder C:\tmp\
-::  Mass Payment Special Requirements
+::  Mass Bill Payments Special Requirements
 In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney","Ccy": "EUR" must be filled before run.
 
 :: Mass Bill Payment Outcome
