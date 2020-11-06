@@ -443,11 +443,11 @@ Below are samples of the output for all help options
 :: Send To Ethnofiles
 .\FileapiCli.exe sendtoethnofiles --fileid "53b322fc-2940-424f-9dad-59aa3168848c" --idfield 3356 --rowcount 2 --totalsum 0.45 
 ::  Mass Payment Special Requirements
-In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney" must be filled before run
+In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney" must be filled before run.
 
 :: Process Ethnofiles File
 .\FileapiCli.exe processenthofilesfile -i "C:\TestFiles\CUS2BANK7777002020021201.FTI" -d "Test Ethnofiles file from cli" -t "MD5","Ethnofiles"  --idfield 100 --rowcount 2 --totalsum 0.45
-In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney" must be filled before run
+In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney" must be filled before run.
 
 :: Ethnofiles-ΤΥΠΟΙ ΑΡΧΕΙΩΝ
 .\FileapiCli.exe retrievecustomerapplicationsincoming -d C:\tmp
@@ -481,9 +481,9 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 .\FileapiCli.exe samplemasspayment --fileType "xml" --downloadfolder C:\tmp\
 
 :: Mass Bill Payments
-.\FileapiCli.exe masspayment -i "C:\TestFiles\Test_MassPayment_File.json" -d "Test mass payment file from cli" -t "MD5","MassPayment" --downloadfolder C:\tmp
+.\FileapiCli.exe masspayment -i "C:\TestFiles\Test_MassPayment_File.json" -d "Test mass payment file from cli" -t "MD5","MassPayment" --downloadfolder C:\tmp\
 ::  Mass Payment Special Requirements
-In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney","Ccy": "EUR" must be filled before run
+In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney","Ccy": "EUR" must be filled before run.
 
 :: Mass Bill Payment Outcome
 .\FileapiCli.exe masspaymentoutcome --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc" --downloadfolder C:\tmp\
@@ -502,9 +502,9 @@ In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","D
 .\FileapiCli.exe samplemasstransfers --fileType "xml" --downloadfolder C:\tmp\ 
 .\FileapiCli.exe samplemasstransfers --fileType "csv" --downloadfolder C:\tmp\
 
-:: Mass Transfers Credit Outcome
-.\FileapiCli.exe masstransferscreditoutcome --fileid "57ae2483-1588-4f94-a6f5-913ffe7dba66" --downloadfolder C:\tmp\
-
 :: Execute Mass Credit Transfers
 .\FileapiCli.exe masstransferscredit -i "C:\tmp\MassiveTransfersETE.csv" -d "Test mass credit transfers file from cli" --debitAccount "04054685740" --isPayroll false
 .\FileapiCli.exe masstransferscredit -i "C:\tmp\MassiveTransfersETE.csv" --debitAccount "04054685740"
+
+:: Mass Transfers Credit Outcome
+.\FileapiCli.exe masstransferscreditoutcome --fileid "57ae2483-1588-4f94-a6f5-913ffe7dba66" --downloadfolder C:\tmp\
