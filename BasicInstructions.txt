@@ -43,7 +43,7 @@
 
 			"client_id": "client_id_guid",
 			"client_secret": "client_secret_guid"
-			"username": "your_portal_username",
+			"appusername": "your_portal_username",
 			"password": "your_portal_password",
 
 			For users using Developer Portal credentials:
