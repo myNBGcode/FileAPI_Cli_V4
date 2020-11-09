@@ -368,6 +368,34 @@ Below are samples of the output for all help options
 
   --help              Display this help screen.
 
+ .\FileapiCli.exe help masspayment
+ ----------------------------------------
+ 
+  -i, --inputfile         Filename with full path, of the file to be uploaded.
+
+  -d, --description       Short description of the file
+
+  -f, --folderid          Folder Guid
+
+  -m, --metadata          Folder Guid. (Used in Upload and Process File operations.)
+
+  -t, --usertags          Tags separated by comma ',' without spaces (Used in Upload and Process File operations.)
+
+  --debtorname            DebtorName
+
+  --debtortelephone       DebtorTelephone
+
+  --debtoriban            DebtorIBan
+
+  --ccy                   Ccy
+
+  --acceptduplicate       AcceptDuplicate
+
+  -p, --downloadfolder    Download location path for the .json response. Omit to use the current path.
+
+  --help                  Display this help screen.
+
+  --version               Display version information.
 
  .\FileapiCli.exe help masspaymentoutcome
  -----------------------------------------------
@@ -405,6 +433,29 @@ Below are samples of the output for all help options
   --DownloadFolder    Required. Download location path
 
   --help              Display this help screen.
+  
+  
+ .\FileapiCli.exe help masstransferscredit
+-----------------------------------------
+  
+  -i, --inputfile      Filename with full path, of the file to be uploaded. (Used in Upload and Process File operations.)
+
+  -d, --description    Short description of the file
+
+  -f, --folderid       Folder Guid
+
+  -m, --metadata       File metadata
+
+  -t, --usertags       Tags separated by comma ',' without spaces (Used in Upload and Process File operations.)
+
+  --debitaccount       DebitAccount
+
+  --ispayroll          IsPayroll
+
+  --help               Display this help screen.
+
+  --version            Display version information
+
 
  .\FileapiCli.exe help masstransferscreditoutcome
  ------------------------------------------------
