@@ -472,10 +472,10 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 .\FileapiCli.exe retrievefileincoming -d C:\tmp -i 746
 
 
-4.3 MASS BILL PAYMENT EXAMPLES
+4.3 MASS BILL PAYMENTS EXAMPLES
 -------------------------
 
-:: Sample Bill Mass Payment
+:: Sample Bill Mass Payments
 .\FileapiCli.exe samplemasspayment --fileType "json" --downloadfolder C:\tmp\ 
 .\FileapiCli.exe samplemasspayment --fileType "csv" --downloadfolder C:\tmp\
 .\FileapiCli.exe samplemasspayment --fileType "xml" --downloadfolder C:\tmp\
@@ -485,13 +485,13 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 ::  Mass Bill Payments Special Requirements
 In appsettings "DebtorName": "{anyname}", "DebtorTelephone": "{anytelephone}","DebtorIBan": "IbanThatWillBeTheSourceOfTheMoney","Ccy": "EUR" must be filled before run.
 
-:: Mass Bill Payment Outcome
+:: Mass Bill Payments Outcome
 .\FileapiCli.exe masspaymentoutcome --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc" --downloadfolder C:\tmp\
 
-:: Mass Bill Payment Request Status
+:: Mass Bill Payments Request Status
 .\FileapiCli.exe requeststatus --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc"
 
-:: Mass Bill Payment Retrieve Status
+:: Mass Bill Payments Retrieve Status
 .\FileapiCli.exe retrievestatus --fileid "615432d2-550a-45d7-a4ed-af1930fe1bfc" --downloadfolder C:\tmp\
 
 
