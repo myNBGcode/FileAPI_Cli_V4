@@ -368,6 +368,7 @@ Below are samples of the output for all help options
 
   --help              Display this help screen.
 
+
  .\FileapiCli.exe help masspayment
  ----------------------------------------
  
@@ -396,6 +397,7 @@ Below are samples of the output for all help options
   --help                  Display this help screen.
 
   --version               Display version information.
+
 
  .\FileapiCli.exe help masspaymentoutcome
  -----------------------------------------------
