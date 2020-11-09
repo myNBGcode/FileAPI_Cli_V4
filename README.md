@@ -12,4 +12,6 @@ Specific **examples** of the various functions of File CLI can be found below:
   * Also, a [video](https://www.youtube.com/watch?v=hgpzXijXmXo) showing a demonstration of the mass bill payment functionalities, is available.
 * [Mass Transfers](https://github.com/myNBGcode/FileAPI_Cli_V4/blob/8b9198d2d78ec9d13fa7c3634a6ada78a2f151e9/BasicInstructions.txt#L498)
 
+For a Quick Start on FileAPI_CLI jump to our [QuickGuide](https://github.com/myNBGcode/FileAPI_Cli_V4/blob/master/QuickGuide.txt) file.
+
 If you are interested for the source code or for another build type please contact us through developer.nbg.gr
