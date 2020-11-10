@@ -69,7 +69,8 @@ Below are samples of the output for all help options
 
 .\FileapiCli.exe
 -------------------------------------
-
+  setpassword                             Set user password using encryption.
+  
   upload                                  Uploads File from a specified path
 
   download                                Downloads a File by its GUID, in a specified directory.
@@ -122,6 +123,7 @@ Below are samples of the output for all help options
 
   help                                    Display more information on a specific command.
 
+  version                                 Display version information.
 
  .\FileapiCli.exe help upload
  ------------------------------
