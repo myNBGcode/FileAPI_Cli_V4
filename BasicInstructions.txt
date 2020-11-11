@@ -44,7 +44,7 @@
 			"client_id": "client_id_guid",
 			"client_secret": "client_secret_guid"
 			"appusername": "your_portal_username",
-			"password": "your_portal_password",
+			* "password": "your_portal_password",
 
 			For users using Developer Portal credentials:
 			arc_provider=1
@@ -59,6 +59,12 @@
 
 			For sandbox calls your sandbox_id also needs to be provided here.
 			"sandbox_id": "MyUniqueSandbox"
+			
+	2.2 * Password Encryption:
+			You can encrypt your password in the appsettings.json by running the setpassword
+			command and providing it. The system will re-write your appsettings.json and replace
+			the password value with the encrypted one. In addition, the "safe_password" flag must
+			be set to true in the appsettings.json in order to use the encrypted password.
 
 
 3.COMMANDS
@@ -279,6 +285,8 @@ Below are samples of the output for all help options
  -------------------------------------------
 
    --customerapplicationfileid    Required. The customer application file id.
+   
+   -h, --isHistorical             Required.  Is historical file flag.
 
    -d, --downloadfolder           Download location path. Omit to use the current path.
 
@@ -287,6 +295,8 @@ Below are samples of the output for all help options
  ------------------------------------------
 
    --customerapplicationfileid    Required. The customer application file id.
+   
+   -h, --isHistorical             Required.  Is historical file flag.
 
    -d, --downloadfolder           Download location path. Omit to use the current path.
 
@@ -515,7 +525,7 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 
 .\FileapiCli.exe retrievefilesoutgoing -d C:\tmp -f 2020-01-01
 .\FileapiCli.exe retrievefilesoutgoinghistoric -d C:\tmp -f 2020-01-01
-.\FileapiCli.exe retrievefileoutgoing -d C:\tmp -i 496
+.\FileapiCli.exe retrievefileoutgoing -d C:\tmp -i 496 -h false
 
 :: Ethnofiles-ΑΠΕΣΤΑΛΜΕΝΑ ΑΡΧΕΙΑ
 .\FileapiCli.exe downloadfilesincoming -d C:\tmp\incoming -f 2020-01-01 -h false -m 50
@@ -524,7 +534,7 @@ In appsettings "DebtorName": "{anyname}", "DebtorIBan": "IbanThatWillBeTheSource
 
 .\FileapiCli.exe retrievefilesincoming -d C:\tmp -f 2020-01-01
 .\FileapiCli.exe retrievefilesincominghistoric -d C:\tmp -f 2020-01-01
-.\FileapiCli.exe retrievefileincoming -d C:\tmp -i 746
+.\FileapiCli.exe retrievefileincoming -d C:\tmp -i 746 -h false
 
 
 4.3 MASS BILL PAYMENTS EXAMPLES
