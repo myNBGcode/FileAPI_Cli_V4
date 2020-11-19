@@ -40,7 +40,8 @@
 			subscribed to the File API, and your own credentials (username, password) 
 			that you use to sign in the NBG Technology HUB, the CLI will authorize you
 			and perform the required operation.
-
+			
+			"AuthorizationServer": "https://my.nbg.gr/identity/",
 			"client_id": "client_id_guid",
 			"client_secret": "client_secret_guid"
 			"appusername": "your_portal_username",
@@ -65,7 +66,16 @@
 			command and providing it. The system will re-write your appsettings.json and replace
 			the password value with the encrypted one. In addition, the "safe_password" flag must
 			be set to true in the appsettings.json in order to use the encrypted password.
-
+	
+	2.3 URLs:
+			For Production Environmet you can use the following URLs in the configuration:
+				"proxyUrl": "https://services.nbg.gr/apis/fileapi/v2"
+				"ethnoProxyUrl": "https://services.nbg.gr/apis/ethnofiles.cli.api/v1/ethnofiles"
+				"tppProxyUrl": "https://services.nbg.gr/apis/fileapi/v2"
+			For Sandbox Environmet you can use the following URLs in the configuration:
+				"proxyUrl": "https://apis.nbg.gr/sandbox/file/oauth2/v4"
+				"ethnoProxyUrl": "https://apis.nbg.gr/sandbox/file/oauth2/v4"
+				"tppProxyUrl": "https://apis.nbg.gr/sandbox/file/oauth2/v4"
 
 3.COMMANDS
 ---------------------------------------------------------------------------------
