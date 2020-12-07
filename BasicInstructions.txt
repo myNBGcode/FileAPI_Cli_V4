@@ -70,7 +70,7 @@
 	2.3 URLs:
 			For Production Environmet you can use the following URLs in the configuration:
 				"proxyUrl": "https://services.nbg.gr/apis/fileapi/v2"
-				"ethnoProxyUrl": "https://services.nbg.gr/apis/ethnofiles.cli.api/v1/ethnofiles"
+				"ethnoProxyUrl": "https://services.nbg.gr/apis/ethnofiles.cli.api/v1"
 				"tppProxyUrl": "https://services.nbg.gr/apis/fileapi/v2"
 			For Sandbox Environmet you can use the following URLs in the configuration:
 				"proxyUrl": "https://apis.nbg.gr/sandbox/file/oauth2/v4"
